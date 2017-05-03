@@ -104,6 +104,7 @@ body {
 header {
   position: absolute;
   top: 0;
+  z-index: 1;
 }
 header img {
   padding-top: 50px;
@@ -114,7 +115,7 @@ header img {
   background: url(https://source.unsplash.com/vaPoJZB9Mzg/1200x675) no-repeat;
   background-size: cover;
   background-position: center;
-  overflow: hidden;
+  position: relative;
 }
 .slogan {
   color: #fff;
@@ -140,10 +141,11 @@ header img {
 .hero>.container {
   position: relative;
 }
-.company-description img {
-  width: 500px;
+.hero img {
+  width: 50%;
+  max-width: 500px;
   position: absolute;
-  top: 25vh;
+  bottom: -120px;
   right: 10vw;
 }
 .company-description .col-6, .company-details .col-3, .profits .col-4, .pricing .col-6 {
