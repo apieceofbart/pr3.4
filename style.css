@@ -148,7 +148,7 @@ header img {
   bottom: -120px;
   right: 10vw;
 }
-.company-description .col-6, .company-details .col-3, .profits .col-4, .pricing .col-6 {
+.company-description .col-6, .company-details [class*="col-"], .profits [class*="col-"], .pricing .col-6 {
   padding-right: 30px;
   padding-left: 30px;
 }
