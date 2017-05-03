@@ -101,6 +101,10 @@ body {
 .col-12 {
   width: 100%;
 }
+header {
+  position: absolute;
+  top: 0;
+}
 header img {
   padding-top: 50px;
 }
