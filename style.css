@@ -146,12 +146,9 @@ header img {
   top: 25vh;
   right: 10vw;
 }
-.company-description h2~p {
-  width: 50%;
-  padding-right: 30px;
-}
 .company-description .col-6, .company-details .col-3, .profits .col-4, .pricing .col-6 {
   padding-right: 30px;
+  padding-left: 30px;
 }
 .company-description h2, .company-details h2, .profits h2 {
   font-size: 35px;
